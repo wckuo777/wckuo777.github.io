@@ -12,7 +12,7 @@ body{
 }
 
 .bg_cover1{
-    background-image: url("/img/lemon_4.jpg");
+    background-image: url("../img/lemon_4.jpg");
     
     background-size: 100%;
     width:100%;
