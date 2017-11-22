@@ -1,12 +1,15 @@
 body{
     margin:0;
+    font-family: 微軟正黑體;
 }
 
 .container1{
+    position: relative;
     max-width:1200px;
     
     margin-left:auto;
     margin-right:auto;
+    
     
     
 }
@@ -119,20 +122,21 @@ font-size: 19px;
 .about_us1 .intro{
      background-color: black;
      color: white;
-     width: 432px;
+     width: 40%;
      height: 493px;
      float: left;
      margin-top:270px;
-     padding:15px 25px;
+     padding:15px 0px;
      box-sizing: border-box;
 }
 
 .about_us1 .intro_pic{
-    width: 432px;
+    width: 50%;
     height: 493px;
-    float: left;
-    margin-left:150px;
+    float: right;
+    margin-right:0px;
     margin-top:270px;
+    right:0px;
     
 
 }
@@ -147,4 +151,110 @@ font-size: 19px;
 
 .title_box{
     background-color: black;
+    position: relative;
+    width:100%;
+    height:234px;
 }
+
+.title_box .crown_l{
+    
+    height:100px;
+    width: 180px;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+    padding-right:50px;
+    box-sizing: border-box;
+}
+
+.title_box .crown_r{
+    
+    height:100px;
+    width: 180px;
+    margin-top:50px;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+    padding-left:50px;
+    box-sizing: border-box;
+}
+
+
+
+.title_box p{
+    margin-top:70px;
+    margin-left:auto;
+    margin-right:auto;
+    float:left;
+    color: white;
+    font-size:54px;
+    
+}
+
+.center{
+    position: absolute;
+    left:50%;
+    top:50%;
+    transform: translate(-50%,-50%);
+}
+
+.onethree img, .onethree3 img{
+    width: 27%;
+    height: 294px;
+    margin-right: 47px;
+    
+
+}
+
+.bg_news1{
+    background-color: brown;
+    width: 100%;
+    height: 769px;
+    position: relative;
+}
+
+.onethree{
+    position: absolute;
+    width:100%;
+    top:40px;
+    
+}
+
+.onethree2{
+    position: absolute;
+    width:100%;
+    top:320px;
+    
+}
+
+.onethree3{
+    position: absolute;
+    width:100%;
+    top:395px;
+    
+}
+
+.onethree4{
+    position: absolute;
+    width:100%;
+    top:676px;
+   
+}
+
+.news_a, .news_d{
+    margin-left:50px;
+}
+
+.onethree2 .textbox, .onethree4 .textbox{
+    width:27%;
+}
+
+
+.onethree2 .textbox p, .onethree4 .textbox p{
+    color:white;
+    font-size: 15pt;
+    float: left;
+    
+}
+
