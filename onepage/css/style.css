@@ -114,19 +114,20 @@ font-size: 19px;
      color:orange;
      /* text-shadow: 0px 0px 20px 20px #020216; */
      font-size: 110px;
-     width:40%;
+     min-width:40%;
 
 }
 
 .about_us1 .title p{
     padding:0;
     margin:0;
+    letter-spacing: 10px;
 
 }
 
 .about_us1 .intro{
-     background-color: black;
-     color: white;
+     background-color: #03050A;
+     /* color: rgb(238, 225, 213); */
      width: 40%;
      height: 493px;
      float: left;
@@ -137,7 +138,7 @@ font-size: 19px;
 
 .about_us1 .intro p{
     
-    color: white;
+    color: #EFEEE1;
     padding: 0 30px;
     
    
@@ -165,9 +166,10 @@ font-size: 19px;
 }
 
 .title_box{
-    background-color: black;
+    background-color: #03050A;
+    width: 100%;
+    height: 234px;
     position: relative;
-    display: inline-block;
 }
 
 .title_box .crown_l{
@@ -177,8 +179,8 @@ font-size: 19px;
     margin-top:50px;
     
     float:left;
-    padding-right:50px;
-    box-sizing: border-box;
+    /* padding-right:50px; */
+    /* box-sizing: border-box; */
 }
 
 .title_box .crown_r{
@@ -188,8 +190,8 @@ font-size: 19px;
     margin-top:50px;
     
     float:left;
-    padding-left:50px;
-    box-sizing: border-box;
+    /* padding-left:50px; */
+    /* box-sizing: border-box; */
 }
 
 .title_box_2{
@@ -198,97 +200,70 @@ font-size: 19px;
    
     
     
-    width: 20%;
-    box-sizing: border-box;
+    width: 30%;
+    /* box-sizing: border-box; */
     float: left;
 }
 
 
 .title_box p{
     
-    
-   
-    color: white;
-    font-size:50px;
-    box-sizing: border-box;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    color: rgb(255, 255, 255);
+    font-size:40px;
+    padding-top:50px;
+    /* box-sizing: border-box; */
     
 }
 
 .center{
-    margin-left:20%;
+    margin-left:25%;
     
     
     
 }
 
-.onethree img, .onethree3 img{
-    width: 27%;
-    height: 294px;
-    margin-right: 47px;
-    
-
-}
 
 .bg_news1{
     background-color: brown;
     width: 100%;
     height: 769px;
-    position: relative;
+    
 }
 
 .onethree{
-    position: absolute;
     width:100%;
-    top:40px;
+    padding-top:30px;
+    
+    
+    
+    
     
 }
 
-.onethree2{
-    position: absolute;
-    width:100%;
-    top:320px;
-    
-}
-
-.onethree3{
-    position: absolute;
-    width:100%;
-    top:395px;
-    
-}
-
-.onethree4{
-    position: absolute;
-    width:100%;
-    top:676px;
-   
-}
-
-.news_a, .news_d{
-    margin-left:50px;
-}
-
-.onethree2 .textbox, .onethree4 .textbox{
-    width:27%;
-}
-
-
-.onethree2 .textbox p, .onethree4 .textbox p{
-    color:white;
-    font-size: 15pt;
-    float: left;
-    
-}
-
-.textbox{
+.news-card{
     float:left;
-    margin-right:50px;
+    width:33.333%;
+    padding:0 15px;
+    
+    box-sizing: border-box;
 }
 
-.textbox.pad{
-    margin-left: 50px;
-    left:
+.news-text{
+    width: 100%;
 }
+
+.news-img img{
+    width: 100%;
+    height:300px;
+    
+    
+    
+    display: block;
+}
+
 
 .bg_material{
     background-image: url(../img/bg_v2_v2.jpg);
