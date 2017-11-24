@@ -28,7 +28,7 @@ body{
     height:168px;
     width:168px;
     
-    margin-left:0%;
+    margin-left:15px;
     margin-top:50px;;
 
 }
@@ -36,9 +36,9 @@ body{
 .logo_2{
     font-size: 100px;
     
-    margin-left:0%;
+    margin-left:15px;
     margin-top:1%;
-    letter-spacing: 30px;
+    letter-spacing: 15px;
 }
 
 .com{
@@ -48,33 +48,33 @@ body{
 }
 
 .J1{
-    margin-left:9%;
+    margin-left:2%;
    
     
-    color: rgb(233, 156, 14);
+    color: #FFB101;
 }
 .U1{
     
     
-    color: rgb(240, 137, 40);
+    color: #F82800;
 }
 
 .I1{
     
     
-    color: rgb(240, 52, 52);
+    color: #DB322E;
 }
 
 .C1{
    
     
-    color: rgb(236, 71, 173);
+    color: #E17396;
 }
 
 .E1{
     
     
-    color: rgb(22, 85, 13);
+    color: #557013;
     }
 
 .menu1{
@@ -111,10 +111,11 @@ font-size: 19px;
 
 
 .about_us1 .title{
-     color:orange;
+     color:#F2A705;
      /* text-shadow: 0px 0px 20px 20px #020216; */
      font-size: 110px;
      min-width:40%;
+     text-shadow: 2px 2px 5px  #250f02, -2px -2px 5px  #250f02;
 
 }
 
@@ -126,7 +127,7 @@ font-size: 19px;
 }
 
 .about_us1 .intro{
-     background-color: #03050A;
+     background-color: #11110C;
      /* color: rgb(238, 225, 213); */
      width: 40%;
      height: 493px;
@@ -134,16 +135,11 @@ font-size: 19px;
      
      
      box-sizing: border-box;
+     overflow-y: auto;
+     
 }
 
-.about_us1 .intro p{
-    
-    color: #EFEEE1;
-    padding: 0 30px;
-    
-   
-    
-}
+
 
 .about_us1 .intro_pic{
     
@@ -211,12 +207,33 @@ font-size: 19px;
     text-align: center;
     padding: 0;
     margin: 0;
-    color: rgb(255, 255, 255);
+    /* color: rgb(255, 255, 255); */
     font-size:40px;
     padding-top:50px;
     /* box-sizing: border-box; */
     
 }
+
+.color_news{
+  color:#EE1C5B;
+}
+
+.color_material{
+    color:#ACCDD8;
+  }
+  .color_hotprod{
+    color:#F2C54A;
+  }
+  .color_prods{
+    color:#E77723;
+  }
+  .color_addr{
+    color:#F1EA06;
+  }
+  .color_contact{
+    color:#E4A3A7;
+  }
+
 
 .center{
     margin-left:25%;
@@ -227,7 +244,7 @@ font-size: 19px;
 
 
 .bg_news1{
-    background-color: brown;
+    background-color: #211E19;
     width: 100%;
     height: 769px;
     
@@ -253,6 +270,7 @@ font-size: 19px;
 
 .news-text{
     width: 100%;
+    color: #EFEEE1;
 }
 
 .news-img img{
@@ -302,24 +320,25 @@ font-size: 19px;
     width:62%;
     float: left;
     height:100%;
+    overflow-y: auto;
     
 
 }
 
 .bgc_water{
-    background-color: rgb(22, 141, 177);
+    background-color: #181A21;
 }
 
 .bgc_honey{
-    background-color: rgb(207, 116, 12);
+    background-color: #261D08;
 }
 
 .bgc_sugar{
-    background-color: rgb(173, 118, 55);
+    background-color: #231C1D;
 }
 
 .bgc_gold{
-    background-color: rgb(224, 228, 17);
+    background-color: #28210A;
 }
 
 .waterpic, .honeypic, .sugarpic, .goldpic{
@@ -353,18 +372,19 @@ font-size: 19px;
     width:62%;
     height:100%;
     float: left;
+    overflow-y: auto;
 }
 
 .bg_lemon{
-    background-color: green;
+    background-color: #181E10;
 }
 
 .bg_cane {
-    background-color: rgb(91, 196, 143);
+    background-color: #1E1B0D;
 }
 
  .bg_orange{
-    background-color: rgb(228, 108, 28);
+    background-color: #1E140C;
 }
 
 
@@ -398,8 +418,8 @@ font-size: 19px;
 
 
 .prods_r2 p, .prods_r4 p {
-    color:white;
-
+    color:#E2F2DF;
+text-align: center;
 }
 
 
@@ -412,16 +432,9 @@ font-size: 19px;
     
 }
 
-.prods_r2 p, .prods_r4 p{
-   
-    color:white;
-   text-align: center;
-    
-    
-}
 
 .salebox{
-    background-color: rgb(29, 19, 2);
+    background-color: #111411;
     width: 19%;
     
     float: left;
@@ -441,14 +454,14 @@ font-size: 19px;
 
 .more_prod{
     width:100px;
-    background-color: black;
+    background-color: #111411;
     border-radius: 5px;
     margin:auto;
     
 }
 
 .more_prod p{
-    color:white;
+    color:#DAE9ED;
     text-align: center;
     padding: 10px;
 }
@@ -462,7 +475,7 @@ font-size: 19px;
 
 .note_prod p{
     
-    color:yellowgreen;
+    color:#F2DFCC;
     
 }
 
@@ -504,12 +517,17 @@ font-size: 19px;
     height:280px;
     padding:15px;
     box-sizing: border-box;
-    background-color: rgb(65, 17, 17);
+    background-color: #1E1D11;
 
 }
 
 .intro_address p{
-    color: wheat;
+    color: #EADDCE;
+    padding:0px 20px;
+}
+
+.intro_address p.intro_addr_p{
+    color: #FAA400;
     padding:0px 20px;
 }
 
@@ -529,14 +547,14 @@ font-size: 19px;
 .bg_contact p{
     /* padding: 0; */
     margin:0;
-    color:orange;
+    color:#FF8E18;
     font-size:20px;
     margin-top:10px;
     
 }
 
 .bg_contact p span{
-    color:rgb(235, 220, 194);
+    color:#EFE8DC;
     font-size:20px;
     padding-left:40px;
     
@@ -544,11 +562,29 @@ font-size: 19px;
 }
 
 .bg_contact p span.fix{
-    color:rgb(235, 220, 194);
-    font-size:20px;
+    
     padding-left: 20px;
     
 
 }
 
+.bg_material p, .bg_hotprod p {
+    color:#EFEEE1;
+    padding:0 30px;
+    letter-spacing: 10px;
+    line-height: 25px;
+    
+} 
 
+.about_us1 .intro p {
+    color:#EFEEE1;
+    padding:10px 30px;
+    letter-spacing: 10px;
+    line-height: 30px;
+} 
+
+
+
+    
+   
+    
