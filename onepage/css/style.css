@@ -1,6 +1,8 @@
+
+@import url(https://fonts.googleapis.com/earlyaccess/cwtexyen.css);
 body{
     margin:0;
-    font-family: 微軟正黑體;
+    font-family: Arial,"cwTeXYen", "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
 }
 
 .container1{
@@ -116,15 +118,11 @@ font-size: 19px;
      font-size: 110px;
      min-width:40%;
      text-shadow: 2px 2px 5px  #250f02, -2px -2px 5px  #250f02;
+     letter-spacing: 10px;
 
 }
 
-.about_us1 .title p{
-    padding:0;
-    margin:0;
-    letter-spacing: 10px;
 
-}
 
 .about_us1 .intro{
      background-color: #11110C;
@@ -253,11 +251,7 @@ font-size: 19px;
 .onethree{
     width:100%;
     padding-top:30px;
-    
-    
-    
-    
-    
+        
 }
 
 .news-card{
@@ -309,6 +303,12 @@ font-size: 19px;
 
 .blanktop3{
     height:20px;
+    width: 100%;
+    opacity: 0;
+}
+
+.blanktop4{
+    height:10px;
     width: 100%;
     opacity: 0;
 }
@@ -589,5 +589,237 @@ text-align: center;
 
 
     
+  /* mediaquery  */
+
+/*hambergur button*/
+.line1, .line2, .line3{
+    width:60px;
+    height: 12px;
+    background-color: #DD551F;
+    margin-bottom:10px;
+    border-radius: 10px;
+    
+}
+.line1{
+    margin-top: 2px;
+}
+
+.ham{
+    
+    margin-left:0px;
+    width:60px;
+    height:60px;
+    padding:10px;
+    background-color: #040621;
+    border-radius: 10px;
+}
+
+#menu .menu_list{
+    
+     height:0;
+    /* transition: all 1s ease-out;  */
+    opacity: 0;
+    
+
+}
+
+#menu .menu_list.active{
+    height:200px; 
+    opacity: 1;
+    position: absolute;
+    width: 100%;
+    background-color: gray;
+    /* animation: mm 2s 1; */
+    /* background-color: rgb(233, 227, 227); */
+}
+
+#menu{
+    display: none;
+}
+
+
+.news-text img{
+    display: none;
+}
+
+@media screen and (max-width: 480px) {
+    #menu{
+        display: block;
+        position: fixed;
+        z-index: 9999;
+    }
+
+    .menu1{
+        display: none;
+    }
+
+
+    .cover1 .logo .logo_1 img{
+        height:75px;
+        width:75px;
+        
+        margin-left:25%;
+        margin-top:80px;
+    
+    }
+
+    .logo_2{
+        font-size: 25px;
+        
+        margin-left:25%;
+        margin-top:1%;
+        letter-spacing: 15px;
+    }
+    
+    .com{
+        font-size: 25px;
+        letter-spacing: 30px;
+        line-height: 50px;
+    }
+    
+    .J1{
+        margin-left:25%;
+        }
+    
+    .about_us1 .blanktop{
+         height:15px;
+        }
+
+    .about_us1 .title{
+            color:#F2A705;
+            /* text-shadow: 0px 0px 20px 20px #020216; */
+            font-size: 25px;
+            min-width:40%;
+            text-shadow: 2px 2px 5px  #250f02, -2px -2px 5px  #250f02;
+            letter-spacing: 10px;
+            margin-bottom: 15px;
+            margin-left: 2%;
+            
+       
+       }
+
+.about_us1 .intro{
+    float: none;
+    width:92%;
+    margin-left: 4%;
+    /* height:480px; */
+}
+
+.about_us1 .intro_pic{
+    float: none;
+    width:90%;
+    height: 300px;
+    margin-left: 5%;
+}
+
+.title_box{
+    background-color: #03050A;
+    width: 100%;
+    height: 100px;
+    position: relative;
+}
+
+.title_box .crown_l{
+    
+    height:50px;
+    width: 20%;
+    margin-top:20px;
+    
+    float:left;
+    /* padding-right:50px; */
+    /* box-sizing: border-box; */
+}
+
+.title_box .crown_r{
+    
+    height:50px;
+    width: 20%;
+    margin-top:20px;
+    
+    float:left;
+    /* padding-left:50px; */
+    /* box-sizing: border-box; */
+}
+
+.title_box_2{
+    
+    
    
+    
+    
+    width: 40%;
+    /* box-sizing: border-box; */
+    float: left;
+}
+
+
+.title_box p{
+    
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    /* color: rgb(255, 255, 255); */
+    font-size:20px;
+    padding-top:25px;
+    /* box-sizing: border-box; */
+    
+}
+
+.center{
+    margin-left:15%;
+  }
+
+  .news-card{
+    float: none;;
+    width:100%;
+    padding:0;
+    
+    box-sizing: none;
+}
+
+.onethree{
+    width:100%;
+    padding-top:0px;
+        
+}
+
+.bg_news1{
+    height:auto;
+}
+
+.news-img img{
+    display: none;
+}
+
+.news-card .news-text{
+    width:100%;
+    height:auto;
+    line-height: 40px;
+    margin-left:20px;
+    margin:0px 0px 0px 20px;
+    font-size:
+}
+
+
+.news-text img{
+    display: block;
+    widows: 10px;
+    height:10px;
+    display: inline-block;
+}
+
+
+   
+
+    }
+
+
+
+
+
+@media screen and (max-width: 320px) {
+        body {
+            
+        }
+        }
     

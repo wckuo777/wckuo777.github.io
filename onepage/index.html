@@ -18,6 +18,8 @@
     <link rel="stylesheet" href="css/unslider-dots.css">
     <link rel="stylesheet" href="css/font-awesome.min.css">
 
+     
+
 
 </head>
 
@@ -25,9 +27,29 @@
     <div class="cover1">
         <div class="bg_cover1">
             <div class="container1">
+                    
+                    <div id="menu">
+                        <!-- <div class="blanktop4"></div> -->
+                            <div class="ham" onclick="menu_toggle()">
+                                    <div class="line1 fix"></div>
+                                    <div class="line2"></div>
+                                    <div class="line3"></div>
+                            </div>
+                            <div class="menu_list">
+                                <div> <a href="">link1</a> </div>
+                                <div> <a href="">link2</a> </div>
+                                <div> <a href="">link3</a> </div>
+                                <div> <a href="">link4</a> </div>
+                            </div>
+                        
+                        </div>
+
+
+
                 <div class="logo">
                     <div class="logo_1">
-                        <img src="img/logo_jpg_final-01_v2.png" alt=""> </div>
+                        <img src="img/logo_jpg_final-01_v2.png" alt=""> 
+                    </div>
                     <div class="logo_2">BLACK</div>
                     <div class="logo_3">
                         <span class="J1 com">J</span>
@@ -62,7 +84,7 @@
         <div class="container1">
 
             <div class="title">
-                <p>關於我們</p>
+                關於我們
             </div>
 
             <div class="intro">
@@ -104,7 +126,7 @@
                         <img src="img/bg_news.jpg" alt="" class="news_a  size">
                     </div>
                     <div class="news-text">
-                        會員卡全面停售，舊會員權益不受影響．
+                        <img src="img/a_dot.png" alt=""> 會員卡全面停售，舊會員權益不受影響．
                     </div>
                 </div>
                 <div class="news-card">
@@ -112,7 +134,7 @@
                         <img src="img/bg_news_2.jpg" alt="" class="news_a  size">
                     </div>
                     <div class="news-text">
-                        會員卡全面停售，舊會員權益不受影響．
+                            <img src="img/a_dot.png" alt="">會員卡全面停售，舊會員權益不受影響．
                     </div>
                 </div>
                 <div class="news-card">
@@ -120,7 +142,7 @@
                         <img src="img/bg_news_3.jpg" alt="" class="news_a  size">
                     </div>
                     <div class="news-text">
-                        會員卡全面停售，舊會員權益不受影響．
+                            <img src="img/a_dot.png" alt="">會員卡全面停售，舊會員權益不受影響．
                     </div>
                 </div>
                 <div style="clear:both"></div>
@@ -132,7 +154,7 @@
                         <img src="img/bg_news_4.jpg" alt="" class="news_a  size">
                     </div>
                     <div class="news-text">
-                        會員卡全面停售，舊會員權益不受影響．
+                            <img src="img/a_dot.png" alt="">會員卡全面停售，舊會員權益不受影響．
                     </div>
                 </div>
                 <div class="news-card">
@@ -140,7 +162,7 @@
                         <img src="img/bg_news_5.jpg" alt="" class="news_a  size">
                     </div>
                     <div class="news-text">
-                        會員卡全面停售，舊會員權益不受影響．
+                            <img src="img/a_dot.png" alt="">會員卡全面停售，舊會員權益不受影響．
                     </div>
                 </div>
                 <div class="news-card">
@@ -148,7 +170,7 @@
                         <img src="img/bg_news_6.jpg" alt="" class="news_a  size">
                     </div>
                     <div class="news-text">
-                        會員卡全面停售，舊會員權益不受影響．
+                            <img src="img/a_dot.png" alt="">會員卡全面停售，舊會員權益不受影響．
                     </div>
                 </div>
                 <div style="clear:both"></div>
@@ -498,14 +520,14 @@
 
     </div>
 
-
+    
 
 
 
     <script src="js/jquery-3.2.1.min.js"></script>
     <script src="js/unslider-min.js"></script>
 
-
+    <!-- google_map_script -->
     <script>
         function initMap() {
             var uluru = { lat: 25.0523967, lng: 121.5205667 };
@@ -814,6 +836,20 @@
     </script>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDraGWaYf1JczNm9s4zzkoqq1uwwZmDnKQ&callback=initMap" async
         defer></script>
+
+
+      <!-- menu_phone_script   -->
+      <script>
+            
+                    function menu_toggle() {
+                        var a = document.querySelector('.menu_list');
+                        a.classList.toggle('active');
+                
+            
+                    }
+                 
+        </script>
+
 
 </body>
 
