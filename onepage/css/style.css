@@ -406,54 +406,56 @@ font-size: 19px;
     height: 1020px;
 }
 
-.prods_r1, .prods_r3 {
-    width: 100%;;
-    height:270px;
-    
-}
-
-.prods_r2, .prods_r4 {
+.hot_prod_row{
     width: 100%;
-    height:38px;
-    
 }
 
-
-
-.prods_r2 p, .prods_r4 p {
-    color:#E2F2DF;
-text-align: center;
-}
-
-
-
-.prods_r1 img, .prods_r3 img{
-    width:19%;
-    height:100%;
+.card_prods{
+    width: 25%;
+    height:300px;
     float: left;
-
+    padding:20px;
+    box-sizing: border-box;
     
+
+}
+
+.prods_img{
+    width:100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
+}
+
+.prods_img img{
+    width:100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+
 }
 
 
 .salebox{
     background-color: #111411;
-    width: 19%;
+    width: 100%;
     
-    float: left;
+    color:#E2F2DF;
+    font-size: 24px;
+    text-align: center;
+    padding: 3px;
+    box-sizing: border-box;
+    
+    
+    
 }
 
-.prods_r2 .salebox, .prods_r4 .salebox, .prods_r1 img, .prods_r3 img{
-    margin:0 8% 0 0;
-}
 
-.salebox.fix{
-    margin:0;
-}
 
-.prods_r1 img.fix, .prods_r3 img.fix{
-    margin:0;
-}
+
+
+
 
 .more_prod{
     width:100px;
@@ -577,6 +579,7 @@ text-align: center;
     letter-spacing: 10px;
     line-height: 25px;
     
+    
 } 
 
 .about_us1 .intro p {
@@ -639,6 +642,10 @@ text-align: center;
 
 
 .news-text img{
+    display: none;
+}
+
+.water_phone{
     display: none;
 }
 
@@ -792,7 +799,8 @@ text-align: center;
 }
 
 .news-card .news-text{
-    width:100%;
+    width:90%;
+    line-height: -10px;
     height:auto;
     line-height: 40px;
     margin-left:20px;
@@ -807,6 +815,116 @@ text-align: center;
     height:10px;
     display: inline-block;
 }
+
+.bg_material .blanktop{
+    display: none;
+}
+
+.water, .honey, .sugar, .gold{
+    display: none;
+}
+.water_phone{
+    display: block;
+}
+
+.bgc_water, .bgc_honey, .bgc_sugar, .bgc_gold{
+    
+    width:100%;
+    float: none;
+    height:100%;
+    overflow-y: auto;
+    
+
+}
+
+
+
+.waterpic, .honeypic, .sugarpic, .goldpic{
+    width: 38%;
+    float: none;
+    height:100%;
+    
+}
+
+
+.material-img{
+    height:100px;
+    overflow: hidden;
+}
+
+.material-img img{
+ width: 100%;
+ height: 200px;
+
+}
+
+.honey_phone img{
+    margin-top: -25px;
+    margin-left: -30px;
+    transform: scale(1.2);
+}
+
+.sugar_phone img{
+    margin-top: -25px;
+    margin-left: 0px;
+    transform: scale(1.2);
+}
+
+.gold_phone img{
+    margin-top: -25px;
+    /* margin-left: 0px; */
+    transform: scale(1.3);
+}
+
+.bg_hotprod .lemon, .bg_hotprod .cane, .bg_hotprod .orange, .bg_hotprod .blanktop{
+    display: none;
+}
+
+.bg_hotprod .lemon_phone, .bg_hotprod .cane_phone, .bg_hotprod .orange_phone, .blanktop, .blanktop{
+    display: block;
+}
+
+
+
+
+.swiper-container {
+    width: 100%;
+    height: 100%;
+  }
+
+.bg_hotprod .swiper-wrapper{
+    height: 250px;
+}
+
+.swiper-slide{
+
+}
+
+.hotprod_lemon_phone img, .hotprod_cane_phone img, .hotprod_orange_phone img{
+    width: 100%;
+    height:100%;
+}
+
+.bg_lemon, .bg_cane ,.bg_orange{
+    width:100%;
+    height:100%;
+    float: none;
+    overflow-y: auto;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
    
