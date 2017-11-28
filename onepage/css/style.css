@@ -771,6 +771,50 @@ hr{
     display: none;
 }
 
+
+/* tabllet version */
+
+@media screen and (max-width: 769px) {
+    
+.menu1{
+    position: absolute;
+    top:20px;
+    right:0;
+    
+} 
+
+.cover1 .logo .logo_1 img{
+    height:168px;
+    width:168px;
+    margin-left:15px;
+    margin-top:70px;;
+}
+
+
+.about_us1 .intro{
+    background-color: #11110C;
+    /* color: rgb(238, 225, 213); */
+    width: 50%;
+    height: 493px;
+    float: left;
+    /* box-sizing: border-box; */
+    overflow-y: auto;
+}
+
+.map, .housepic{
+
+/* background-color: red; */
+width:50%;
+height:100%;
+float:left;
+}
+
+    }
+
+
+
+
+
 @media screen and (max-width: 690px) {
     #menu{
         display: block;
@@ -1224,42 +1268,4 @@ hr{
 
 
 
-/* tabllet version */
-
-@media screen and (max-width: 769px) {
-        
-    .menu1{
-        position: absolute;
-        top:20px;
-        right:0;
-        
-    } 
-
-    .cover1 .logo .logo_1 img{
-        height:168px;
-        width:168px;
-        margin-left:15px;
-        margin-top:70px;;
-    }
-
-
-    .about_us1 .intro{
-        background-color: #11110C;
-        /* color: rgb(238, 225, 213); */
-        width: 50%;
-        height: 493px;
-        float: left;
-        /* box-sizing: border-box; */
-        overflow-y: auto;
-   }
-
-   .map, .housepic{
-    
-    /* background-color: red; */
-    width:50%;
-    height:100%;
-    float:left;
-}
-
-        }
     
