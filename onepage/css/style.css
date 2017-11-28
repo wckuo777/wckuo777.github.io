@@ -664,6 +664,8 @@ font-size: 19px;
     opacity: 0;
     padding-top: 100px;
     padding-left: 15px;
+    right:100%;
+    overflow: hidden; 
     
 
 }
@@ -684,6 +686,7 @@ font-size: 19px;
 #menu{
     display: none;
     float: left;
+       
 }
 
 .menu_list a{
