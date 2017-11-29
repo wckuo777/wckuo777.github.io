@@ -606,6 +606,7 @@ font-size: 19px;
 .QR_code{
     margin-left:66%;
     margin-top:-100px;
+    float: left;
 }
 
 
@@ -981,7 +982,7 @@ float:left;
     line-height: 40px;
     margin-left:20px;
     margin:0px 0px 0px 20px;
-    font-size:
+    font-size: 15px;
 }
 
 
@@ -1072,9 +1073,9 @@ float:left;
     height: 250px;
 }
 
-.swiper-slide{
+/* .swiper-slide{ } */
 
-}
+
 
 .hotprod_lemon_phone img, .hotprod_cane_phone img, .hotprod_orange_phone img{
     width: 100%;
@@ -1198,20 +1199,21 @@ float:left;
 
 .bg_contact{
     display: none;
+    margin-left: -100%;
     
  }
 
  .contact_phone{
      display: block;
-     position: relative;
+     
  }
 
  
 
- .contact_phone .contact_phone .contact_card{
+ .contact_phone .contact_card{
      width:100%;
-     height: 200px;
-     
+     height: 220px;
+     position: relative;
  }
 
  .contact_phone .contact_card .bg_contact_phone{
@@ -1231,22 +1233,28 @@ float:left;
  }
 
 .contact_text_phone{
-     width: 100%;
+    width: 100%;
     position: absolute;
-    top:0;
+    top:10px;
     display: block;
 
  }
 
-.contact_text_phone img{
-    width: 50px;
-    height: 50px;
+ .textp{
+     float: left;
+ }
 
+
+.QR_code1{
+    float: left;
+    margin-left: 10%;
+    margin-top: 10px;
+    
 }
 
-.QR_code{
-    margin-left:66%;
-    margin-top:-50px;
+.QR_code1 img{
+    width: 70px;
+    height: 70px;
 }
 
 
@@ -1265,7 +1273,11 @@ float:left;
     font-size: 10px;
     /* line-height: 5px; */
     color:#EFE8DC;
+    padding-left: 20px;
 }
+
+.contact_text_phone span.fix{
+    padding-left: 5px;
 
     }
 
