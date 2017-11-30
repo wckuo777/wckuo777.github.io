@@ -1,0 +1,179 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  font-family: Arial, "文泉驛正黑", "WenQuanYi Zen Hei", "儷黑 Pro", "LiHei Pro", "微軟正黑體", "Microsoft JhengHei", "標楷體", DFKai-SB, sans-serif;
+}
+
+.picframe {
+  width: 100% !important;
+  height: 300px;
+}
+
+.picframe img {
+  width: 100%;
+  height: 100%;
+}
+
+.navbar-nav {
+  width: 100%;
+}
+
+.banner {
+  width: 100%;
+  height: calc(100vh - 86px);
+}
+
+.bannerlink {
+  width: 100%;
+  height: auto;
+  margin-top: -60px !important;
+  top: 0;
+  position: relative;
+  z-index: 9999;
+}
+
+.blank_top {
+  height: 30px;
+}
+
+.card_car .car_img {
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+
+.card_car .car_img img {
+  width: 100%;
+  height: 100%;
+}
+
+.card_car .intro {
+  width: 50%;
+  height: 300px;
+  float: left;
+}
+
+.card_car .intro {
+  position: relative;
+}
+
+.card_car .intro p {
+  color: red;
+  font-size: 25px;
+  position: absolute;
+  padding: 0;
+  margin: 0;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.tab-content {
+  color: black !important;
+  padding: 5px;
+}
+
+.items {
+  margin: 10px 0px;
+}
+
+.textstyle {
+  background-color: white;
+  width: 150px;
+  padding: 5px;
+  margin-left: 50%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.textstyle2 {
+  background-color: white;
+  width: 150px;
+  padding: 5px;
+  margin-left: 20%;
+  text-align: center;
+  font-size: 18px;
+}
+
+.story {
+  background-color: yellow;
+  padding: 20px 0px;
+}
+
+.story img {
+  float: left;
+  width: 100%;
+}
+
+.story .storystyle {
+  float: right;
+}
+
+.store, .car_identification {
+  float: left;
+}
+
+.cardata, .carad {
+  float: left;
+}
+
+.hplink {
+  margin-top: 220px;
+}
+
+.hplink .cardata {
+  margin-left: 20%;
+  padding: 5px;
+  width: 20%;
+}
+
+.hplink .carad {
+  margin-left: 20%;
+  padding: 5px;
+  width: 20%;
+}
+
+.others img {
+  width: 100%;
+  height: 100%;
+}
+
+.align-m {
+  margin-top: 35%;
+}
+
+@media screen and (min-width: 900px) {
+  .cus-nav {
+    margin-top: 0px;
+  }
+  .nav-item {
+    width: 33.3333%;
+    text-align: right;
+  }
+  .cus-w {
+    width: 40%;
+    text-align: center;
+  }
+  .cus-mr {
+    margin-left: 20%;
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.cus_tune.active {
+    color: white !important;
+    background-color: green !important;
+    border: 1px solid green;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    box-sizing: border-box;
+  }
+  .nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.cus_tune1.active {
+    color: white !important;
+    background-color: red !important;
+    border: 1px solid red;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    box-sizing: border-box;
+  }
+}
+ 
+
+ /*# sourceMappingURL= style.css.map */
