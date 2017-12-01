@@ -14,9 +14,9 @@
 <body>
     
      <!-- nav_bar -->
-    <nav class="navbar navbar-expand-xl navbar-light bg-success">
+    <nav class="navbar navbar-expand-md navbar-light">
         <div class="container">
-            <a class="navbar-brand" href="#">Ferrari</a>
+            <a class="navbar-brand" href="#"><img src="img/logo_fe2.png" alt=""></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                 aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -25,12 +25,12 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav mx-auto">
                     <li class="nav-item active cus-nav">
-                        <a class="nav-link" href="#">車型
+                        <a class="nav-link" href="#cartype">車型
                             <span class="sr-only">(current)</span>
                         </a>
                     </li>
                     <li class="nav-item active cus-nav">
-                        <a class="nav-link" href="#">售後服務</a>
+                        <a class="nav-link" href="#carservice">售後服務</a>
                     </li>
                     <li class="nav-item dropdown cus-nav">
                         <a class="nav-link active dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true"
@@ -38,8 +38,9 @@
                             其他
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">故事</a>
-                            <a class="dropdown-item" href="#">商店</a>
+                            <a class="dropdown-item" href="#carstory">故事</a>
+                            <a class="dropdown-item" href="#carstore">商店</a>
+                            <a class="dropdown-item" href="#caridentification">車證</a>
                             <!-- <div class="dropdown-divider"></div> -->
                             <!-- <a class="dropdown-item" href="#">Something else here</a> -->
                         </div>
@@ -58,18 +59,40 @@
 
     
         <!-- banner -->
-        <div class="container-fluid bg-success">
-            <div class="container bg-success">
-               <div class="banner picframe">
-               <img src="img/812.jpg" alt="">
-                            <div class="hplink bannerlink">
-                            <button class="cardata">車體數據</button>
-                            <button class="carad"><a href="">影片欣賞</a></button>
-                            <div style="clear:both;"></div>
-               </div>
-               </div>
+        <div class="container-fluid bg-success" id="cartype">
+            <div id="pcbanner">
+                            <div class="container bg-success">
+                        <div class="banner picframe">
+                            <a href="http://812superfast.ferrari.com/en/start" target="_blank">
+                            <img src="img/812.jpg" alt="">
+                            </a>
+                        
+                                        <div class="hplink bannerlink">
+                                        <button class="cardata"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-812-superfast/technical-specifications" target="_blank">車體數據</a></button>
+                                        <button class="carad"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-812-superfast/multimedia" target="_blank">影片欣賞</a></button>
+                                        <div style="clear:both;"></div>
+                        </div>
+                        </div>
+
+                        </div>
+            </div>
+
+            <div id="phonebanner">
+                    <div class="banner picframe">
+                            <a href="http://812superfast.ferrari.com/en/start" target="_blank">
+                            <img src="img/812.jpg" alt="">
+                            </a>
+                        
+                                        <div class="hplink bannerlink">
+                                        <button class="cardata"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-812-superfast/technical-specifications" target="_blank">車體數據</a></button>
+                                        <button class="carad"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-812-superfast/multimedia" target="_blank">影片欣賞</a></button>
+                                        <div style="clear:both;"></div>
+                        </div>
+                        </div>
+
 
             </div>
+            
             
 
         </div>
@@ -77,8 +100,8 @@
       <div style="clear:both;"></div>
         <!-- 第一排 -->
         <div class="container-fluid">
-            <div class="blank_top"></div>
-            <div class="container">
+            <div class="blank_top"  id="top"></div>
+            <div class="container" id="types">
 
                     <div class="other_cars">
                             <div class="slider_row">
@@ -87,14 +110,17 @@
                                                 <div class="swiper-slide">
                                                     <div class="card_car">
                                                         <div class="car_img">
-                                                        <img class="car_style" src="img/GTC4lusso_t.jpg" alt="">
+                                                            <a href="http://gtc4lussot.ferrari.com/en/comfort/the-other-side-of-lusso" target="_blank">
+                                                             <img class="car_style" src="img/GTC4lusso_t.jpg" alt="">
+                                                            </a>
+                                                       
                                                         </div>
                                                     
                                                         <div class="intro">
                                                                <p>GTC4Lusso T</p> 
                                                                <div class="hplink">
-                                                                   <button class="cardata">車體數據</button>
-                                                                   <button class="carad"><a href="">影片欣賞</a></button>
+                                                                   <button class="cardata"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-gtc4-lusso-t/ferrari-gtc4-lusso-t-technical-specification" target="_blank">車體數據</a></button>
+                                                                   <button class="carad"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-gtc4-lusso-t/multimedia" target="_blank">影片欣賞</a></button>
                                                                    <div style="clear:both;"></div>
                                                                 </div>
                                                                
@@ -105,14 +131,16 @@
                                                 <div class="swiper-slide">
                                                         <div class="card_car">
                                                                 <div class="car_img">
-                                                                <img class="car_style" src="img/California_T.png" alt="">
+                                                                    <a href="http://auto.ferrari.com/en_EN/sports-cars-models/past-models/california-t/" target="_blank">
+                                                                            <img class="car_style" src="img/California_T.png" alt="">
+                                                                    </a>
                                                                 </div>
                                                             
                                                                 <div class="intro">
                                                                     <p>California T</p> 
                                                                     <div class="hplink">
-                                                                        <button class="cardata">車體數據</button>
-                                                                        <button class="carad"><a href="">影片欣賞</a></button>
+                                                                        <button class="cardata"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-california-t/ferrari-california-t-technical-specification" target="_blank">車體數據</a></button>
+                                                                        <button class="carad"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-california-t/multimedia" target="_blank">影片欣賞</a></button>
                                                                         <div style="clear:both;"></div>
                                                                      </div> 
                                                                 </div>
@@ -131,8 +159,55 @@
 
 
                         </div>
-            </div>       
+            </div>  
+            
 
+            <!-- phone_r1 -->
+            <div class="phonetypes_r1">
+                <div class="card_car">
+                    <div class="car_img">
+                        <a href="http://gtc4lussot.ferrari.com/en/comfort/the-other-side-of-lusso" target="_blank">
+                         <img class="car_style" src="img/GTC4lusso_t.jpg" alt="">
+                        </a>
+                   
+                    </div>
+                
+                    <div class="intro">
+                           <!-- <p>GTC4Lusso T</p>  -->
+                           <div class="hplink">
+                               <button class="cardata"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-gtc4-lusso-t/ferrari-gtc4-lusso-t-technical-specification" target="_blank">車體數據</a></button>
+                               <button class="carad"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-gtc4-lusso-t/multimedia" target="_blank">影片欣賞</a></button>
+                               <div style="clear:both;"></div>
+                            </div>
+                           
+                    </div>
+                </div>
+                <div class="card_car">
+                        <div class="car_img">
+                            <a href="http://auto.ferrari.com/en_EN/sports-cars-models/past-models/california-t/" target="_blank">
+                                    <img class="car_style" src="img/California_T.png" alt="">
+                            </a>
+                        </div>
+                    
+                        <div class="intro fix2">
+                            <!-- <p>California T</p>  -->
+                            <div class="hplink">
+                                <button class="cardata"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-california-t/ferrari-california-t-technical-specification" target="_blank">車體數據</a></button>
+                                <button class="carad"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-california-t/multimedia" target="_blank">影片欣賞</a></button>
+                                <div style="clear:both;"></div>
+                             </div> 
+                        </div>
+                    </div>
+  
+            </div>
+            
+
+
+            
+
+
+            
+                    
 
         </div>
 
@@ -150,13 +225,16 @@
                                                             <div class="intro">
                                                                 <p class="text-white">GTC4Lusso</p> 
                                                                 <div class="hplink">
-                                                                    <button class="cardata">車體數據</button>
-                                                                    <button class="carad"><a href="">影片欣賞</a></button>
+                                                                    <button class="cardata"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-gtc4-lusso/technical-specifications.html" target="_blank">車體數據</a></button>
+                                                                    <button class="carad"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-gtc4-lusso/multimedia.html" target="_blank">影片欣賞</a></button>
                                                                     <div style="clear:both;"></div>
                                                                  </div> 
                                                             </div>
                                                             <div class="car_img">
-                                                            <img class="car_style" src="img/gtc4lusso.jpg" alt="">
+                                                                <a href="http://car-configurator.ferrari.com/gtc4lusso" target="_blank">
+                                                                <img class="car_style" src="img/gtc4lusso.jpg" alt="">
+                                                                </a>
+                                                            
                                                             </div>
                                                         
                                                             
@@ -168,13 +246,16 @@
                                                                     <div class="intro">
                                                                         <p class="text-white">Ferrari F12berlinetta</p> 
                                                                         <div class="hplink">
-                                                                            <button class="cardata">車體數據</button>
-                                                                            <button class="carad"><a href="">影片欣賞</a></button>
+                                                                            <button class="cardata"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/f12berlinetta/f12berlinetta-technical-specification" target="_blank">車體數據</a></button>
+                                                                            <button class="carad"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/f12berlinetta/multimedia" target="_blank">影片欣賞</a></button>
                                                                             <div style="clear:both;"></div>
                                                                          </div> 
                                                                     </div>
                                                                     <div class="car_img">
-                                                                    <img class="car_style" src="img/Ferrari_F12berlinetta.jpg" alt="">
+                                                                        <a href="http://auto.ferrari.com/en_EN/sports-cars-models/past-models/f12-berlinetta/#/en/explore/exterior" target="_blank">
+                                                                            <img class="car_style" src="img/Ferrari_F12berlinetta.jpg" alt="">
+                                                                        </a>
+                                                                    
                                                                     </div>
                                                                 
                                                                     
@@ -193,16 +274,59 @@
     
     
                             </div>
+                        </div>
+
+                            <div class="phonetypes_r2">
+                            <div class="card_car">
+                                    
+                                    <div class="car_img">
+                                        <a href="http://car-configurator.ferrari.com/gtc4lusso" target="_blank">
+                                        <img class="car_style" src="img/gtc4lusso.jpg" alt="">
+                                        </a>
+                                    
+                                    </div>
+                                <div class="intro fix3">
+                                        <!-- <p class="text-white">GTC4Lusso</p>  -->
+                                        <div class="hplink">
+                                            <button class="cardata"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-gtc4-lusso/technical-specifications.html" target="_blank">車體數據</a></button>
+                                            <button class="carad"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/ferrari-gtc4-lusso/multimedia.html" target="_blank">影片欣賞</a></button>
+                                            <div style="clear:both;"></div>
+                                         </div> 
+                                    </div>
+                                    
+                                </div>
+                                <div class="card_car">
+                                        
+                                        <div class="car_img">
+                                            <a href="http://auto.ferrari.com/en_EN/sports-cars-models/past-models/f12-berlinetta/#/en/explore/exterior" target="_blank">
+                                                <img class="car_style" src="img/Ferrari_F12berlinetta.jpg" alt="">
+                                            </a>
+                                        
+                                        </div>
+                                    <div class="intro fix4">
+                                            <!-- <p class="text-white">Ferrari F12berlinetta</p>  -->
+                                            <div class="hplink">
+                                                <button class="cardata"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/f12berlinetta/f12berlinetta-technical-specification" target="_blank">車體數據</a></button>
+                                                <button class="carad"><a href="http://www.taipeicity.ferraridealers.com/zh_tw/cars/f12berlinetta/multimedia" target="_blank">影片欣賞</a></button>
+                                                <div style="clear:both;"></div>
+                                             </div> 
+                                        </div>
+                                        
+                                    </div>
+
+
+                            </div>
+
                 </div>       
+                
     
+            
     
-            </div>
-    
-
+            <div style="clear:both;"></div>
         <!-- 售後服務 -->
-        <div class="sale_service">
+        <div class="sale_service" id="carservice">
 
-            <div class="saletitle text-center my-5">
+            <div class="saletitle text-center my-5 titlefont">
                 售後服務
             </div>
 
@@ -216,14 +340,14 @@
               </ul>
               
               <div class="tab-content bg-success" id="tabcolor">
-                <div class="tab-pane active" id="home"  aria-labelledby="home-tab"> ma laborum sed pariatur magnam in  </div>
+                <div class="tab-pane active embed-responsive embed-responsive-16by9" id="home"  aria-labelledby="home-tab"> <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfkOAVQkMpTqgcFt94VtH0HjHdC00OseSSk-kff0Av-16fKKg/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">載入中…</iframe> </div>
                 <div class="tab-pane" id="profile"  aria-labelledby="profile-tab"> 
                     <div class="items">
                         <div class="row mx-auto">
                             
                             <div class="col-4 text-center">
                                     <div class="textstyle">
-                                        道路救援
+                                        <a href="http://www.taipeicity.ferraridealers.com/zh_tw/aftersales/service/roadside-assistance" target="_blank">道路救援</a> 
                                     </div> 
                             </div>
                             <div class="col-4 text-center">
@@ -245,8 +369,10 @@
                                   
                                 </div>
                                 <div class="col-4 text-center">
-                                        <div class="textstyle2">ConTe
-                                            </div>
+                                    <a href="http://www.taipeicity.ferraridealers.com/zh_tw/aftersales/service/conte" target="_blank">
+                                    <div class="textstyle2">ConTe</div>
+                                    </a>
+                                        
                                 </div>
                               </div>
                         </div>
@@ -254,8 +380,10 @@
                                 <div class="row mx-auto">
                                     
                                     <div class="col-4 text-center">
-                                            
+                                            <a href="http://www.taipeicity.ferraridealers.com/zh_tw/aftersales/service/financial-services" target="_blank">
                                             <div class="textstyle">Financial</div>
+                                            </a>
+                                            
                                         
                                     </div>
                                     <div class="col-4 text-center">
@@ -276,7 +404,10 @@
                                           
                                         </div>
                                         <div class="col-4 text-center">
-                                                <div class="textstyle2">七年免費保養</div>       
+                                            <a href="http://www.taipeicity.ferraridealers.com/zh_tw/aftersales/service/7-year-maintenance" target="_blank">
+                                            <div class="textstyle2">七年免費保養</div>
+                                            </a>
+                                                       
                                             
                                         </div>
                                       </div>
@@ -285,8 +416,10 @@
                                         <div class="row mx-auto">
                                             
                                             <div class="col-4 text-center">
-                                                    
+                                                    <a href="http://www.taipeicity.ferraridealers.com/zh_tw/aftersales/service/welcome-back" target="_blank">
                                                     <div class="textstyle">WelcomeBack</div>
+                                                    </a>
+                                                    
                                                 
                                             </div>
                                             <div class="col-4 text-center">
@@ -307,8 +440,10 @@
                                                   
                                                 </div>
                                                 <div class="col-4 text-center">
-                                                  
-                                                        <div class="textstyle2">延長保固</div>
+                                                  <a href="http://www.taipeicity.ferraridealers.com/zh_tw/aftersales/service/ferrari-power-warranty" target="_blank">
+                                                           <div class="textstyle2">延長保固</div>
+                                                  </a>
+                                                        
                                                     
                                                 </div>
                                               </div>
@@ -317,7 +452,11 @@
                                                 <div class="row mx-auto">
                                                     
                                                     <div class="col-4 text-center">
-                                                            <div class="textstyle">套裝服務</div>
+
+                                                        <a href="http://www.taipeicity.ferraridealers.com/zh_tw/aftersales/service/service-packages">
+                                                        <div class="textstyle">套裝服務</div>
+                                                        </a>
+                                                            
                                                             
                                                         
                                                     </div>
@@ -341,8 +480,8 @@
         </div>
 
         <!-- 故事 -->
-        <div class="story">
-                <div class="storytitle text-center mb-3">故事</div>
+        <div class="story" id="carstory">
+                <div class="storytitle text-center mb-3 titlefont">故事</div>
                 <div class="container">
                     <div class="row">
                     <div class="col-6"><img src="img/enzo.jpg" alt=""></div>
@@ -374,18 +513,80 @@
 
                        <div class="row">
                               <div class="col-4 align-middle">
-<div class="store">
-                             <img class="align-m" src="img/store.jpg" alt="">
+<div class="store" id="carstore">
+    <a href="http://store.ferrari.com/tw_en" target="_blank" class="fixstore">
+    <img class="align-m ml-5" src="img/store.jpg" alt="">
+    </a>
+                             
                        </div>
                               </div>
                               <div class="col-4"></div>
+
+
+                              <!-- car_identification -->
                               <div class="col-4 align-middle">
-<div class="car_identification">
-                        <img src="img/certificate.jpg" alt="">
-                       </div>
+                                   <div class="car_identification" id="caridentification">
+                                    
+                                    <div class="btn btn-primary" data-toggle="modal" data-target="#exampleModalLong">
+                                            <img src="img/certificate.jpg" alt="">
+                                    </div>
+                                          
+                                          <!-- Modal -->
+                                          <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+                                            <div class="modal-dialog" role="document">
+                                              <div class="modal-content">
+                                                <div class="modal-header">
+                                                  <h5 class="modal-title" id="exampleModalLongTitle">車證</h5>
+                                                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                                    <span aria-hidden="true">&times;</span>
+                                                  </button>
+                                                </div>
+                                                <div class="modal-body">
+                                                        技術檢驗詳情
+                                                        
+                                                        在每一台法拉利通過認證之前，必須由原廠通過一系列嚴格的技術檢驗與品管。這一系列且完整詳盡的法拉利認證過程，都是由精於評估各式法拉利車款的的原廠技師執行。
+                                                        
+                                                        檢驗的過程囊括190*種以上的不同的流程檢測，包含傳動系統、電氣系統、車體和內裝等細項。並且會交由專業車手試駕。
+                                                        發現問題時，我們會使用法拉利原廠零件進行維修，以確保車輛符合Maranello嚴格的安全、性能及可靠標準。
+                                                        
+                                                        
+                                                        車輛通過技術檢驗後，我們會將品管和檢查項目的書面評估報告提供給買家以茲證明。
+                                                        法拉利認證技術檢驗包括下列項目：
+                                                        
+                                                        傳動系統功能測試
+                                                        電氣系統功能測試
+                                                        檢查各種液位
+                                                        檢查懸吊系統、煞車、冷卻系統和轉向系統的狀態
+                                                        空調、設備及安全系統的輔助控制功能
+                                                        車燈、輪圈及輪胎（胎紋深度和胎壓）功能測試
+                                                        北美為101*種單項檢查
+                                                        
+                                                         
+                                                        
+                                                        開始與準備
+                                                        
+                                                        每台法拉利認證車輛都經過仔細整備，確保出售時達到外觀和內裝的最高標準。外觀烤漆、內裝嵌板與座椅都經過仔細檢查。如果需要維修的部分，則採用最高級的材料。當然完成後，我們也會將已維修和檢查的項目詳細記錄在手套箱內的文件中，表示車輛正式加入法拉利認證計畫。
+                                                        
+                                                         
+                                                        
+                                                        保固與協助
+                                                        
+                                                        法拉利認證的優點在於可提供至少12個月的原廠保固。保固內容涵蓋多數零件更換的費用以及主要維修作業的工資。一般保養的零件則不包含在內，例如輪胎、煞車來令片和煞車碟盤、或是一般耗材等。法拉利認證提供兩年不限里程保固。保固內容涵蓋損壞修復的費用、包括零件與維修作業。此外我們保證將使用原廠零件，並由法拉利原廠技師進行所有維護工作。
+                                                        
+                                                        道路救援服務：法拉利提供12個月全年無休的道路救援服務。讓法拉利車主享受絕對的尊榮感受與駕馭樂趣。迅速熱情的協助，保障您的旅程絕不因任何突發狀況而中斷。
+                                                </div>
+                                                <div class="modal-footer">
+                                                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                                  <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+                                                </div>
+                                              </div>
+                                            </div>
+                                          </div>
+
+                                   </div>
                               </div>
 
-                       </div>
+                              </div>
                    </div>
                    <div style="clear:both;"></div>
                    
@@ -404,19 +605,21 @@
         <div class="footer">隱私條款</div>
         <div class="footer">法律公告</div>
         <div class="footer">聯絡我們</div> -->
-       <div class="container-fulid">
+       <div class="container-fulid bg-success">
                             <div class="container">
                                 <div class="row">
                                     <div class="col-1">
                                         
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 my-4">
                                             車型
                                     </div>
-                                    <div class="col-1">
-                                            商店
+                                    <div class="col-1 my-4">
+                                        <a href="http://store.ferrari.com/tw_en/" class="text-dark">商店</a>
+                                            
                                     </div>
-                                    <div class="col-1">
+                                    <div class="col-1 my-4">
+                                            <a href="https://www.ferrari.com/en-TW" class="text-dark"></a>
                                             國際官網
                                     </div>
                                     <div class="col-1">
@@ -431,16 +634,334 @@
                                     <div class="col-1">
                                                 
                                     </div>
-                                    <div class="col-1">
-                                            隱私條款   
+                                    <div class="col-1 my-4">
+                                            <!-- Button trigger modal -->
+<div  data-toggle="modal" data-target="#exampleModalLong1">
+        隱私條款
+</div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong1" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle1">隱私條款</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    Privacy Policy
+                    處理個人資料和使用Cookie的隱私權聲明
+                    
+                    本隱私權聲明（以下簡稱「聲明」）是由Ferrari S.p.A.根據義大利個人資料保護法第196/2003號法令第13條制訂，提供透過 http://www.taipeicity.ferraridealers.com/ 網站（以下簡稱「本網站」）遠端存取Ferrari S.p.A. 網頁服務的使用者。
+                    本隱私權聲明僅適用於本網站，不適用使用者可能透過連結所查閱的任何其他法拉利網站，此類網站由其他特定的隱私權聲明所涵蓋。 
+                    
+                    1. 資料處理目的（根據義大利個人資料保護法第196/2003號法令第13條規定）
+                    
+                    1. 由使用者自願提供Ferrari S.p.A.的個人資料將蒐集並使用於：  
+                    
+                    (a) 滿足使用者對於透過本網站所提供的服務之要求，如：預約試駕、維修服務和技術援助、道路救援、車輛認證，以及所有其他由Ferrari S.p.A.和（或）任何母公司和（或）相關公司和（或）子公司、經銷和服務網路和（或）Ferrari S.p.A.商業活動合作夥伴和（或）法人等透過本網站提供的服務；
+                    (b) 從事行銷活動，如：由Ferrari S.p.A.和（或）其母公司和（或）相關公司和（或）子公司、經銷網路和（或）Ferrari S.p.A.商業活動合作夥伴和（或）法人，利用郵件、網際網路、電話、電子郵件、MMS多媒體簡訊、SMS文字簡訊從義大利或其他國家（包括從非歐盟國家）傳送使用者所要求的電子報、統計及市場研究和調查、組織各種活動和展覽（包括行銷活動和展覽），以及發送情報和促銷資訊（包括商業性資訊、廣告文宣和／或推出商品和服務）。
+                    
+                    2. 資料處理的類型
+                    
+                    線上瀏覽的資料
+                    網站正常運作期間，本網站所使用的電腦系統和功能軟體程序將會蒐集特定的個人資料，此資料傳輸行為隱含在所使用的網際網路通訊協定中。
+                    
+                    蒐集此資訊之目的不會與任何利益相關方產生關聯，不過，由於其本身的性質，透過處理並與第三方所持有的資訊產生關聯後將可以識別使用者。 此類別的資訊包括：使用者連接到本網站的電腦IP位址和網域名稱、請求的資源URI（統一資源識別元）位址、發出要求的時間、向伺服器發出要求的方式、獲得回應時所接收的檔案大小、伺服器回應碼所提示的回應狀態（成功、錯誤等），以及使用者作業系統和電腦環境的其他相關參數。 
+                    
+                    這些資料僅用於和本網站使用有關的匿名統計資訊、檢查驗證功能的正確性，並會在處理完畢後立即刪除。遇電腦犯罪行為發生時，該資料可用於追究法律相關責任；除此種可能性外，網站所接收的資料不會保留超過7天。 
+                    
+                    使用者自願提供的資料
+                    欲使用第1點所述服務的時候，本網站的使用者可能會被要求自願提供某些個人資訊，例如姓名、電子郵件地址和電話號碼。 
+                    此外，若為選擇性、明確和自願的傳送電子郵件至本網站指定的網址，則除了通訊可能內含的任何其他個人資料外，本網站還將會取得傳送者的郵件地址（僅限執行任何要求所需的必要資訊）。 
+                    
+                    最後，本網站可能會根據使用者所要求的特定服務蒐集進一步的相關資訊，在此情況下，本網站將會額外提供使用者該特定服務的隱私權聲明頁面。
+                    
+                    3. Cookie（歐盟電子通信隱私指令（Directive 2002/58/EC）第5條）
+                    
+                    何謂Cookie？
+                    本網站使用「Cookie」。Cookie是一種小型文字檔，當您使用網站時會下載到瀏覽器中。Cookie在工作階段（「暫存Cookie」）或後續瀏覽網頁時（「永久Cookie」）會從其來源網站重新傳輸至本網站，或傳輸至可辨識特定Cookie的任何其他網站。此功能可讓本網站識別個別使用者的瀏覽裝置。
+                    功用
+                    一般而言，除其他事項外，網站管理員會使用這些檔案來記住使用者的登入資料並自動識別（因而無需重新輸入使用者名稱和密碼）、管理網路銀行和網上購物等服務、設置個人化網頁、簡化瀏覽程序，以及藉由檢查不同網頁的存取次數，更有效地顯示使用者最常要求的資訊。 
+                    有時Cookie可能來自於非使用者所造訪網站的第三方網域（「第三方Cookie」）。這些Cookie不一定會包含使用者的個人資訊。
+                    主要類型
+                    Cookie一般可分為4大類：  
+                    
+                    (1) 絕對必要的Cookie：使用者必須具有這些Cookie，才能瀏覽網站並使用其服務。否則，將無法提供使用者所要求的服務。例如：網路銀行的安全交易Cookie、記住線上購物清單項目的Cookie，或加速網頁下載速度的Cookie；
+                    (2) 與網站效能或其運作分析相關的功能性Cookie（「效能Cookie」）：這些Cookie會蒐集使用者最常瀏覽的頁面資訊，以及錯誤或故障相關訊息；例如，網頁不正確顯示的相關訊息。這些Cookie不會蒐集使用者的個人資訊，僅存取改善網站運作效能的有用資訊；
+                    (3) 與網站和服務可用性相關的功能性Cookie（「可用性Cookie」）：這些Cookie可讓網站記住某些使用者選擇的資訊或參考資訊（例如使用者名稱、預設語言、國家、喜好），以改善用戶體驗；還可記錄瀏覽過的頁面版面配置選擇，或協助提供使用者所要求的服務（例如保存使用者的來源地理區域，及自動連結所要求的服務）。這些Cookie會蒐集個人資料，但資料仍維持匿名狀態；
+                    (4) 定位或行銷相關的Cookie：這些Cookie可記住使用者的瀏覽模式，目的在於後續提供符合其興趣和喜好的廣告訊息，或避免再次發送相同的廣告訊息，以及透過資料的統計分析結果評估廣告活動的效益；在某些情況下，這些是由廣告商在取得網站管理員同意後所傳送的Cookie，可將使用者瀏覽習慣的相關資訊同時提供給網站管理員和第三方廣告商（「第三方Cookie」）。
+                    
+                    本網站使用之Cookie
+                    
+                    http://www.taipeicity.ferraridealers.com/ 網站所使用的Cookie屬於下列類別：
+                    1 （絕對必要Cookie）目的為提供所要求的服務，
+                    2 （效能Cookie） 目的為改善本網站的運作功能， 
+                    3 （可用性Cookie） 目的為記住使用者國籍、使用者所選擇的語言和最喜愛的汽車清單等資訊。  
+                    
+                    若本網站因特定功能需採用不同於上述目的或第4類的Cookie（定位或行銷相關的Cookie），將會顯示特定的要求列或視窗，明確地要求使用者的同意。
+                    
+                    瀏覽器設定和清除Cookie
+                    請注意目前大多數的瀏覽器皆會自動接受Cookie。但使用者仍可進行設定，使瀏覽器不接受Cookie。
+                    使用者也可隨時變更瀏覽器的設置，要求排除Cookie，並刪除已儲存在瀏覽器中的Cookie。 
+                    另外，也請您注意，拒絕接受Cookie可能會減緩甚至阻止存取本網站的某些內容，且刪除已接收的Cookie也將刪除由該Cookie所管理和記憶的偏好設定。
+                    
+                    4. 資料處理方式
+                    
+                    使用者的個人資料是使用特定的電子和（或）紙本方式，並採用與上述用途密切相關的邏輯進行處理，以此類方式確保使用者資料的安全性和私密性。  
+                    
+                    5. 提供資料和拒絕提供的結果
+                    
+                    使用者可依照個人意願決定是否提供其個人資料。然而，若使用者拒絕提供資訊和（或）提供不正確和（或）不完整的資訊，可能會導致本網站無法滿足使用者的要求、傳送所要求的電子報、讓使用者參與統計及市場研究的調查和計劃、活動和（或）展覽，以及發送情報和促銷資訊（包括商業性資訊）。  
+                    
+                    6. 資料披露
+                    
+                    法拉利所蒐集的使用者個人資料將依據第1點所述之目的披露至：全球法拉利的經銷和服務網路、與法拉利在其商業活動中合作之個人／企業，以及Ferrari S.p.A子公司、母公司和（或）相關的公司。 
+                    在Ferrari S.p.A.內部，下列人員得以取用使用者的個人資料：法拉利S.p.A.的各部門、本公司員工（尤其是行銷業務部門和資訊系統負責單位），以及個資管理單位和其他負責處理個人資料的人員。
+                    使用者的個人資料也可能交付給依據本聲明第1條所述之目的提供Ferrari S.p.A協助或服務的合格個人／公司；包括處理本網站開發和維護工作的MotorTrak公司、其他負責管理和（或）參與管理和（或）維護本公司網站及所使用之電子裝置的個人／公司。從事第1條所列活動時，Ferrari S.p.A.亦可能利用下列各類個人／公司（可能會得知使用者的資料）：銀行、保險公司和企業、供應商和分包商、提供Ferrari S.p.A.服務與協助的合格公司／個人，進行：傳送電子報、處理統計及市場研究、組織各種活動和展覽（包括行銷活動和展覽）、發送情報和促銷資訊（包括商業性資訊、法律、金融、保險、會計、組織架構等訊息）；以及根據法律必須明確傳遞資料的任何其他公司／個人。
+                    
+                    個人資料可能會在符合現行法例的情況下傳送至境外，包括位在非歐盟國家以營利為目的之Ferrari S.p.A.。  
+                    
+                    7. 資料散佈
+                    
+                    使用者的個人資料將不會散佈或傳遞至本聲明中未列出之其他個人／公司。  
+                    
+                    8. 使用者權利
+                    
+                    關於第1條所列之資料處理，使用者（或「資料當事人」）可行使2003年6月30日頒佈之第196號法令第7條所規定的權利。為方便起見，全文轉錄如下： 
+                    
+                    第7條 存取個人資料的權利和其他權利
+                    1. 資料當事人有權確認其個人資訊是否存在，即使此資訊尚未被記錄，且應以一般人可理解的方式進行存取。
+                    2. 資料當事人有權被告知：a)個人詳細資料的來源；b)處理該資料的目的和方法；c) 後續將以電子形式處理完成的作業程序；d)依照第5條第2款所指定之個資管理單位、資料處理管理員和指定代理人的身份；e)與義大利境內的指定代理人、資料處理管理員或工作人員同樣可能向其傳送資料或可能得知資料之個人／公司的身份或類別。
+                    3. 資料當事人有權：a)更新、更正或補充（如適用）資料；b) 刪除、轉換成匿名形式或封鎖任何非法處理的資料，包括依據其蒐集或後續處理之目的而不需保存的資料；c)確認上述a)及b)相關的操作和內容均已告知個人／公司，包括傳送或共享資料之對象；除非不可能執行，或執行時所使用的方式與所涉及之權利不成比例。
+                    4. 資料當事人有權全部或部份反對：a)基於正當理由，處理其個人資料，即使該處理與蒐集資料的目的直接相關；b)處理其個人資訊，以達成廣告或直接銷售、市場研究或商業通訊之目的。
+                    
+                    9. 直接行銷用途的個人資料處理－不受歡迎的通訊（Directive 2002/58/EC第13條，Privacy Code第130條）
+                    
+                    個資管理單位不會在無操作員的介入下使用自動呼叫系統，透過電子郵件、傳真、MMS（多媒體簡訊服務）、SMS（簡訊服務）或任何其他種類的管道，傳送廣告文宣或直接銷售，或進行市場調查或商業通訊。 
+                    
+                    10. 個資管理單位和資料處理員
+                    
+                    個資管理單位為Ferrari S.p.A.，其總部位於義大利摩德納市Emilia東路1163號（Via Emilia Est, no. 1163, Modena），營運總部位於義大利馬拉內羅市Abetone Inferiore路4號（Via Abetone Inferiore no.4, 41053 Maranello (Mo)）；c.f./P. IVA 00159560366，REA MO- 88683。
+                    代表Ferrari S.p.A.處理個人資料的資料處理員為人力資源經理，其履行職責地點為法拉利營運總部，位於義大利馬拉內羅市Abetone Inferiore路4號（Via Abetone Inferiore 4, Maranello (MO)）。若對Ferrari S.p.A.處理的個人資料有任何相關要求，請與前述之總部聯絡，或傳送電子郵件 customercare@ferrari.com 或傳真至+39 0536 949931。
+                    
+                    11. 同意對個人資料進行處理
+                    
+                    同意服務使用需求（本聲明1 (a)）
+                    經使用者同意後，個資管理單位得依本聲明中所指定之用途和使用方式來處理其個人資料，包括將資料傳遞至上列個人和公司，以滿足使用者對於透過本網站可用的服務之要求。
+                    
+                    同意行銷活動（本聲明1(b)）
+                    需另外取得使用者同意之部分，包含允許Ferrari S.p.A.和（或）其母公司和（或）相關公司和（或）子公司、其經銷商與服務網路和（或）Ferrari S.p.A.商業活動中所合作之實體和（或）法人：傳送使用者所要求的電子報、讓使用者參與統計及市場研究和調查、讓使用者參與活動和展覽的組織和進行（包括行銷活動和展覽），以及發送情報和促銷資訊（包括商業性資訊、廣告文宣和／或所提供的商品和服務）（包括從非歐盟國家）。
+                    
+                    同意使用Cookie
+                    Cookie需經使用者同意後方能使用。若使用者繼續瀏覽網站，即視為使用者同意使用第3段所述之1（絕對必要Cookie）、2（效能Cookie）、3（可用性Cookie）等類別的Cookie。 
+                    若本網站因特定功能需使用第4類的Cookie（定位或行銷相關的Cookie），將會透過特定的要求列或視窗，明確地要求使用者之同意。  
+                    
+                    
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>
+                                            
                                     </div>
-                                    <div class="col-1">
-                                            法律公告
+                                    <div class="col-1 my-4">
+                                          <!-- Button trigger modal -->
+<div data-toggle="modal" data-target="#exampleModalLong3">
+        法律公告
+</div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong3" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">法律公告</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                    Legal Notice
+                    一般使用條款
+                    
+                    1. 基本資訊
+                    
+                    本文件為http://www.taipeicity.ferraridealers.com/ 網站的一般使用條款（以下簡稱「一般條款」及「本網站」），欲瀏覽本網站者應遵循此一般條款。
+                    
+                    
+                    任何進入本網站或是各種瀏覽本網站相關頁面之行為即表示完全同意此一般條款。
+                    如果使用者不接受此一般條款，則須放棄瀏覽本網站。進入本網站即表示您同意不得將本網站內容作非法用途或是在任何情況下違反適用法律。 Ferrari S.p.A.保留修改一般條款的權利而毋需事前通知，使用者在使用本網站前應定期閱讀本條款。進入本網站即表示您已事前閱讀並接受已修改的一般條款。
+                    本網站頁面中所提供之商品和服務或所呈現之內容，將依據相關頁面所述之特殊條款和條件，且此類條款和條件將優先於此一般條款。
+                    
+                    2. 本網站內容
+                    
+                    描述
+                    
+                    Ferrari S.p.A.官方網站http://www.taipeicity.ferraridealers.com/ 為法拉利世界的線上資訊交流管道，本網站將提供Ferrari S.p.A.的各種宣傳及商業活動、一系列的產品和服務，以及相對應的使用方式。
+                    
+                    本網站的所有內容（新聞、圖片、影片、音樂、商標、標誌、網域名稱、軟體、圖形版面配置、技術認證和使用者手冊等）及相對應之權利，在此明確聲明，所有可參考之資源僅限於個人使用，未經Ferrari S.p.A.明確的書面許可，嚴格禁止任何其他用途。
+                    
+                    網站內容
+                    本網站上可能會顯示其他不同的連結。這些連結可能涉及第三方網站和Ferrari S.p.A.所屬集團內的其他公司。超文字連結之唯一用途即為便於使用者進行瀏覽，不表示本網站內容與所連結的第三方網站具有任何形式之關係。此外，Ferrari S.p.A.聲明其本身無權控制本網站所連結的第三方網站，以及此類網站中所包含產品和／或資訊之真實性、準確性和充足性。如果使用者在所連結之網站上發現特殊使用條款，該特殊條款將優先於此一般條款。
+                    
+                    3. 版權和其他智慧財產權
+                    
+                    本網站的所有內容遵守適用的著作權法及智慧財產權法規定，並受其保護。
+                    
+                    嚴格禁止重製、傳播或擷取本網站內全部或部份材料，同時亦禁止任何其他可能會損害本網站內容之作者和／或其他權利持有者合法權益的活動。
+                    
+                    本網站的所有內容只可用於個人、研究或教育目的，並禁止任何直接或間接的商業用途，應正式引用權利持有者且不得修改任何內容。
+                    舉例而言，本網站內容可能含有（包括但不限於）下列項目：
+                    
+                    - 文字；
+                    - 照片；
+                    - 影片；
+                    - 資料庫；
+                    - 圖形和試算表；
+                    - 標語；
+                    - 錄音製品；
+                    - 圖像（動畫或非動畫）；
+                    - 其他以圖形和／或文字表達的內容。
+                    因此，除非獲得Ferrari S.p.A.明確授權，不得複製和／或重製本網站全部或部份內容。
+                    此外，本網站中出現的所有商標、網域名稱、公司名稱和標誌（下段規定者除外）均為Ferrari S.p.A.所有，且均受當地智慧財產權法保護。除非事先獲得Ferrari S.p.A.明確授權，嚴格禁止以任何形式或方式對上述內容進行任何種類的重製，同時亦禁止在任何最上層網域註冊「FERRARI」商標。
+                    
+                    使用者瞭解本網站上某些頁面可能包含與Ferrari S.p.A.合作之第三方商標、網域名稱、公司名稱，且依據當地智慧財產權法授予和Ferrari S.p.A.代表性標誌的相同保護。
+                    Ferrari S.p.A.聲明，嚴格禁止在元標記（meta tags）或HTML命令語言中使用任何Ferrari S.p.A. 代表性標誌，即使該語言命令為隱藏文字或某個命令的格式化標記，目的為提供代理程式或搜索引擎快速到達非Ferrari S.p.A旗下網站。
+                    
+                    4. 本網站使用方式
+                    
+                    Ferrari S.p.A.聲明，除非獲得Ferrari S.p.A.明確授權，本網站的全部或部份內容不得以任何方式或形式複製、重製、再版、載入、傳播或散佈；在所有材料未經任何方式修改的情況下，且所有智慧財產權資訊仍維持本網站顯示之內容，則得列印、下載及顯示本網站之部分內容供個人使用，但不得作為商業用途。此外，除非獲得Ferrari S.p.A.明確授權，本網站的全部或部份內容不得以通訊方式（即網際網路、視訊系統、無線電波或任何其他儀器）提供。
+                    
+                    此外，本網站所包含之資訊和材料不得用於建立任何資料庫資源之商業用途，且不得儲存（全部或部份）於建立者和第三方均可存取的舊版資料庫中。
+                    
+                    5. 連結和視框
+                    
+                    除非獲得Ferrari S.p.A.明確授權，禁止建立本網站首頁（以下簡稱「首頁」）的連結，即目前已公佈的http://www.taipeicity.ferraridealers.com/ 網頁，並禁止連結到本網站其他內頁。
+                    
+                    在任何情況下，如果任何使用者或任何第三方欲在其網站上建立連結至本網站，應傳送電子郵件至customercare@ferrari.com，註明：: a) 欲嵌入本網站首頁連結的網頁技術聯絡人所有資料（包括電子郵件地址和電話號碼）;b) 申請企業的所有資料；c) 將建立連結的網頁地址；d) 任何其他有助於取得Ferrari S.p.A.授權的有用資訊。
+                    
+                    Ferrari S.p.A.明確禁止任何使用者或任何第三方以特殊連結（「深層連結」）方式，重新導向至本網站首頁以外之網頁，並禁止任何可讓使用者將屬於本網站所製作的圖像自動顯示於特定空間的自動連結（「內嵌連結」）。
+                    
+                    Ferrari S.p.A.明確禁止視框連結（視框），此程序可將本網站頁面出現於其他網站的特定頁面，且除此效果外，網頁內容亦會顯示於依此目的所構建之框架中。
+                    若違反本條各項規定，即構成非法行並違反公平交易法。
+                    
+                    6. 保固排除和責任限制
+                    
+                    本網站上所發佈之內容僅作為一般參考用途。Ferrari S.p.A.不為其準確性和完整性提供任何保證，且保留隨時修改和更新此類資訊的權利，毋需事前通知。
+                    
+                    針對因使用或無法使用本網站及其內容或直接或間接連接的網站，而招致之任何及所有直接和間接損害（包括利潤損失），以及針對本網站之任何遺漏或錯誤，Ferrari S.p.A.將不承擔其責任。
+                    
+                    7. 可分離性
+                    
+                    若本一般條款之任一條款被判定為非法、無效，或因任何其他原因無效，此類條款將與其他條款分離處理，並不影響其餘條款之有效性和效力。
+                    
+                    
+                    8. 適用法律和管轄權
+                    
+                    使用者應有權依據任何國家和國際規則與法規享有任何不同的權利，且不得受任何限制，此一般條款將遵循義大利法律並據其解釋（除規則與法律衝突外），包括一般條款及任何其他相關協議之存在、有效性、效力的任何爭議。
+                    
+                    若與一般條款和任何相關協議出現上述任何爭議，將遵循義大利摩德納法院（Court Modena）之專屬管轄權。
+                    根據義大利法律，若一般條款之英語版本和義大利版本間的解釋發生任何衝突，則以義大利版為準。
+                    
+                    9. 本公司相關資訊
+                    
+                    Ferrari SpA總部和工廠：義大利I-41053馬拉內羅市Abetone Inferiore路4號（Via Abetone Inferiore n. 4, I-41053 Maranello ( MO)）
+                    
+                    電話：+39 0536.949111
+                    電子郵件：customercare@ferrari.com
+                    總公司：義大利I-41100摩德納市Emilia東路1163號，郵政信箱589（Via Emilia est 1163 P.O. Box 589 I-41100 Modena）
+                    社會資本：20.260.000（進項稅額）
+                    摩德納註冊編號R.E.A. Modena：88683
+                    指導和協調：Fiat SpA
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>  
+                                        
+                                        
+                                        
                                     </div>
-                                        <div class="col-1">
-                                                聯絡我們   
+                                        <div class="col-1 my-4">
+                                                       <!-- Button trigger modal -->
+<div data-toggle="modal" data-target="#exampleModalLong4">
+        聯絡我們
+</div>
+      
+      <!-- Modal -->
+      <div class="modal fade" id="exampleModalLong4" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle4">聯絡我們</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+                  <div class="left">
+                        台北  <br>
+                        地址:台北市內湖區瑞光路190號 <br>
+                        電話:02-2627-5990 <br>
+                        營業時間: <br>
+                        星期一09.00 - 19.00  <br>
+                        星期二09.00 - 19.00  <br>
+                        星期三09.00 - 19.00 <br>
+                        星期四09.00 - 19.00 <br>
+                        星期五09.00 - 19.00 <br>
+                        星期六10.00 - 18.00 <br>
+                        星期日10.00 - 18.00 <br>
+                        <hr>
+                        台中 <br>
+                        地址:台中市西屯區文心路三段109-6號 <br>
+                        電話:04-2313-6599 <br>
+                        營業時間: <br>
+                        星期一09.00 - 18.30  <br>
+                        星期二09.00 - 18.30 <br>
+                        星期三09.00 - 18.30 <br>
+                        星期四09.00 - 18.30 <br>
+                        星期五09.00 - 18.30 <br>
+                        星期六09.00 - 18.30 <br>
+                        周日公休<br>
+                        <hr>
+                        高雄<br>
+                        地址:高雄市左營區新莊一路315號 <br>
+                        電話:07-359-2690 <br>
+                        營業時間: <br>
+                        星期一09.00 - 18.30 <br>
+                        星期二09.00 - 18.30 <br>
+                        星期三09.00 - 18.30 <br>
+                        星期四09.00 - 18.30 <br>
+                        星期五09.00 - 18.30 <br>
+                        星期六09.00 - 18.30 <br>
+                        周日公休<br>
+
+                  </div>
+                  <div class="right">
+       
+                  </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+              <!-- <button type="button" class="btn btn-primary">Save changes</button> -->
+            </div>
+          </div>
+        </div>
+      </div>    
+                                            
+
+
                                         </div>
-                                        <div class="col-1">
+                                        <div class="col-1 my-4">
                                             
                                         </div>
                                     </div>
