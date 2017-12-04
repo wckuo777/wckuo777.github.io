@@ -207,14 +207,58 @@ float: left;
     display: none;
 }
 
-@media screen and (max-width:500px){
+.mmpc{
+    margin-left:25%;
+}
+
+.nav-item{
+    width: 33.3333%;
+    text-align: right;
+}
+
+#phonebanner{
+    display: none;
+}
+
+.cus-w{
+    
+      width: 40%;
+      text-align: center;
+  
+  }
+
+  .cus-mr{
+    margin-left: 20%;
+  }
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.cus_tune.active{
+    color:white !important;
+    background-color: green !important;
+    border: 1px solid green;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    box-sizing: border-box;
+}
+
+.nav-tabs .nav-item.show .nav-link, .nav-tabs .nav-link.cus_tune1.active{
+    color:white !important;
+    background-color: red !important;
+    border: 1px solid red;
+    border-top-left-radius: .25rem;
+    border-top-right-radius: .25rem;
+    box-sizing: border-box;
+    
+}
+
+
+@media screen and (max-width:540px){
     .cus-nav{
         margin-top:0px;
     }
 
     .nav-item{
         width: 33.3333%;
-        text-align: right;
+        text-align: left;
     }
 
 
@@ -326,6 +370,26 @@ float: left;
      .phonetypes_r1, .phonetypes_r2{
          display: block;
      }
+
+     .phonevoid{
+         display: none;
+     }
+
+     .fixstorephone{
+        width: 100%;
+        height: auto;
+        margin-left: 0px !important;
+    }
+    .align-m{
+        margin-top: 5%;
+        
+    }
+
+    .mmm{
+        margin-left: 0px !important;
+    }
+    
+    
     
 
 
