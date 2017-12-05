@@ -104,6 +104,10 @@
 
 
             <div class="container1">
+  <!-- back to top -->
+                    <div class="btt">
+                            回到<br>最頂
+                        </div>
 
                
 
@@ -1255,6 +1259,33 @@
               
             })
         </script>
+
+
+<!-- back to top script -->
+<script>
+        
+             $(".btt").click(function(){
+                 $(window).scrollTop(0);
+                });
+                
+            $(window).scroll(function(){
+               
+             var t4 = $(window).scrollTop();
+              console.log(  t4   );
+         if( t4 > 500 ) { 
+        //         $('.btt').addClass('show');
+        //         $('.btt').removeClass('hide');
+             $('.btt').fadeIn(1000);
+             }else{
+            //     $('.btt').addClass('hide');
+            //     $('.btt').removeClass('show');
+            $('.btt').fadeOut(2000);
+             }
+            
+            });
+        
+        </script>  
+        
 
 </body>
 
