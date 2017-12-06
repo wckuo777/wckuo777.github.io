@@ -22,6 +22,7 @@
     <!-- <link rel="stylesheet" href="css/owl.theme.default.min.css"> -->
     <link rel="stylesheet" href="css/swiper.min.css">
     <link href="css/lightbox.min.css" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="css/aos.css"> -->
 
     <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-110183982-1"></script>
@@ -184,7 +185,7 @@
     </div>
     <div style="clear:both;"></div>
 
-    <div class="bg_news1">
+    <div data-aos="fade-down" class="bg_news1">
 
         <div class="container1">
             <div class="onethree">
@@ -708,10 +709,11 @@
             </div>
 
         </div>
-
+        <div style="clear:both;"></div>
+        
         <!-- 金窩銀窩 -->
 
-        <div class="address1">
+        
 
             <div class="title_box" id="T6">
                 <div class="center">
@@ -726,7 +728,7 @@
                 </div>
             </div>
             <div style="clear:both;"></div>
-
+            <div class="address1"> 
             <div class="blanktop2"></div>
             <div class="container1">
 
@@ -814,40 +816,41 @@
 
             
             <div class="contact_phone">
-                    <div class="contact_card">
-                        <div class="bg_contact_phone">
-                                 <img src="img/bg_orange_v2.jpg" alt="">
-
-                        </div>
-                        <div style="clear:both;"></div>
-                        <div class="contact_text_phone">
-                            <div class="textp">
-                                 <p>電話:
-                             <span>+886-2- 2563-98180</span>
-                             </p>
-                         <p>信箱:
-                             <span>bili_chen@yoooo.com</span>
-                         </p>
-                         <p>負責人:
-                             <span class="fix">陳霹靂</span>
-                         </p>
-                            </div>
-                           
-                         
-                         <div class="QR_code1">
-                            <a href="http://s01.calm9.com/qrcode/2017-11/4HW8QJT73O.png" data-lightbox="img-QR" data-title="正體">
-                            <img src="http://s01.calm9.com/qrcode/2017-11/BL58Z48OIB.png" alt="不見了喔">
-                        </a>
-                        </div>
-
-                        </div>
-                         
+                <div class="contact_card">
+                    <div class="bg_contact_phone">
+                             <img src="img/bg_orange_v2.jpg" alt="">
 
                     </div>
-                    
+                    <div style="clear:both;"></div>
+                    <div class="contact_text_phone">
+                        <div class="textp">
+                             <p>電話:
+                         <span>+886-2- 2563-98180</span>
+                         </p>
+                     <p>信箱:
+                         <span>bili_chen@yoooo.com</span>
+                     </p>
+                     <p>負責人:
+                         <span class="fix">陳霹靂</span>
+                     </p>
+                        </div>
+                       
+                     
+                     <div class="QR_code1">
+                        <a href="http://s01.calm9.com/qrcode/2017-11/4HW8QJT73O.png" data-lightbox="img-QR" data-title="正體">
+                        <img src="http://s01.calm9.com/qrcode/2017-11/BL58Z48OIB.png" alt="不見了喔">
+                    </a>
+                    </div>
 
+                    </div>
+                     
 
                 </div>
+                
+
+
+            </div>
+
 
 
 
@@ -1285,6 +1288,48 @@
             });
         
         </script>  
+
+
+<!-- topic toggle -->
+<script>
+    
+        $("#T2").click(function(){
+            
+            $('.bg_news1').fadeToggle(200);
+           });
+
+
+           $("#T3").click(function(){
+            
+            $('.bg_material').fadeToggle(200);
+           });
+
+           $("#T4").click(function(){
+            
+            $('.bg_hotprod').fadeToggle(200);
+           });
+
+           $("#T5").click(function(){
+            
+            $('.bg_products').fadeToggle(200);
+           });
+
+           $("#T6").click(function(){
+            
+            $('.address1').fadeToggle(200);
+           });
+
+        //    $("#T7").click(function(){
+            
+        //     $('.bg_contact').fadeToggle(200);
+        //     $('.contact_phone').fadeToggle(200);
+        //    });
+          
+   
+    
+    </script>
+
+    
         
 
 </body>
