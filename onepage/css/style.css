@@ -26,6 +26,10 @@ body{
   
 } 
 
+#T2, #T3, #T4, #T5, #T6{
+    cursor:pointer;
+}
+
 .btt{
     position: fixed;
     bottom: 0;
@@ -774,6 +778,7 @@ hr{
 .linkstyle a{
     padding-right: 80%;
     overflow: hidden;
+    cursor: pointer;
 }
 
 
