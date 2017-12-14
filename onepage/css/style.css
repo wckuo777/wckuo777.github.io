@@ -32,19 +32,38 @@ body{
 
 .btt{
     position: fixed;
-    bottom: 0;
-    right: 10px;
-    border:1px solid transparent;
-    display: none;
-    background-color: rgb(114, 150, 51);
-    border-radius: 50%;
+    top: -50px;
+    right: 30px;
+    /* border:1px solid transparent; */
+    /* display: none; */
+    /* background-color: rgb(114, 150, 51); */
+    /* border-radius: 50%; */
     color:brown;
-    padding: 5px;
-    margin-bottom: 20px;
-    margin-right: 20px;
-    cursor:url(../img/favicon.ico),auto;
+    /* padding: 5px; */
+    /* margin-bottom: 20px; */
+    /* margin-right: 20px; */
+    cursor:url(../img/cursor_btt.png),auto;
     z-index: 11111;
 }
+
+.btt_tree_phone{ 
+    display: none;
+}
+
+.btt_tree{
+    width: 80px;
+    height: 0vh;
+    transition-duration: 0.8s;
+    
+}
+
+.abc{
+    height: 95vh;
+    transition-duration: 0.8s;
+
+}
+
+
 
 .bg_cover1{
     background-image: url("../img/lemon_4.jpg");
@@ -868,6 +887,28 @@ height:100%;
 float:left;
 }
 
+.btt_tree_phone{ 
+    display: block;
+    height: 0vh;
+    transition-duration: 0.8s;
+}
+.abc{
+    height: 95vh;
+    transition-duration: 0.8s;
+
+}
+
+.btt{
+    right:1px;
+
+}
+
+.btt_tree{
+    width: 80px;
+    height: 80vh;
+    display: none;
+}
+
     }
 
 
@@ -893,7 +934,28 @@ float:left;
     }
 
     
+    .btt_tree_phone{ 
+        display: block;
+        height: 0vh;
+        transition-duration: 0.8s;
+    }
+
+    .abc{
+        height: 95vh;
+        transition-duration: 0.8s;
     
+    }
+
+    .btt{
+        right:1px;
+
+    }
+    
+    .btt_tree{
+        width: 80px;
+        height: 80vh;
+        display: none;
+    }
     
 
 
