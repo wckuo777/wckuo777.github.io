@@ -32,13 +32,13 @@ body{
 
 .btt{
     position: fixed;
-    top: -50px;
+    margin-top: -5vh;
     right: 1px;
     /* border:1px solid transparent; */
     /* display: none; */
     /* background-color: rgb(114, 150, 51); */
     /* border-radius: 50%; */
-    color:brown;
+    /* color:brown; */
     /* padding: 5px; */
     /* margin-bottom: 20px; */
     /* margin-right: 20px; */
@@ -51,14 +51,17 @@ body{
 }
 
 .btt_tree{
+    margin-top: -95vh;
     width: 80px;
-    height: 0vh;
+    
+    height:95vh;
     transition-duration: 0.8s;
     
 }
 
 .abc{
-    height: 95vh;
+    margin-top: 0vh;
+    
     transition-duration: 0.8s;
 
 }
@@ -889,11 +892,12 @@ float:left;
 
 .btt_tree_phone{ 
     display: block;
-    height: 0vh;
+    height: 85vh;
+    margin-top: -85vh;
     transition-duration: 0.8s;
 }
 .abc{
-    height: 95vh;
+    margin-top: 0vh;
     transition-duration: 0.8s;
 
 }
@@ -905,7 +909,7 @@ float:left;
 
 .btt_tree{
     width: 80px;
-    height: 80vh;
+    height: 85vh;
     display: none;
 }
 
@@ -936,12 +940,13 @@ float:left;
     
     .btt_tree_phone{ 
         display: block;
-        height: 0vh;
+        margin-top: -85vh;
+        height: 85vh;
         transition-duration: 0.8s;
     }
 
     .abc{
-        height: 95vh;
+        margin-top: 0vh;
         transition-duration: 0.8s;
     
     }
@@ -952,8 +957,7 @@ float:left;
     }
     
     .btt_tree{
-        width: 80px;
-        height: 80vh;
+        
         display: none;
     }
     
